@@ -1,0 +1,15 @@
+server:
+  port: 8100
+
+spring:
+  application:
+    name: book
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/book
+    username: root
+    password:
+    platform: mysql
+  jpa:
+    hibernate:
+      ddl-auto: update
